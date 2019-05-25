@@ -1,4 +1,4 @@
-package com.jain.playground.array.backtracking;
+package com.jain.playground.backtracking;
 
 import java.util.ArrayList;
 import java.util.Arrays;

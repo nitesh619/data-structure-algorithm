@@ -1,4 +1,4 @@
-package com.jain.playground.array;
+package com.jain.playground.array.matrix;
 
 import java.util.ArrayList;
 import java.util.List;

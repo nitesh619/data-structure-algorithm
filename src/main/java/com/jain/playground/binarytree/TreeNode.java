@@ -1,4 +1,4 @@
-package com.jain.playground.array.binarytree;
+package com.jain.playground.binarytree;
 
 public class TreeNode {
 

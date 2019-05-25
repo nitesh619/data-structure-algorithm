@@ -1,5 +1,6 @@
 package com.jain.playground.array;
 
+//Array should not have duplicates
 class FindMinInRotatedSortedArray {
 
     public int findMin(int[] nums) {

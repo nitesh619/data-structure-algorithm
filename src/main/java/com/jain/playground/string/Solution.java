@@ -1,4 +1,4 @@
-package com.jain.playground.array.string;
+package com.jain.playground.string;
 
 import static java.util.stream.Collectors.groupingBy;
 import static java.util.stream.Collectors.joining;
@@ -16,7 +16,7 @@ class Solution {
 
     public static void main(String[] args) {
         System.out.println(
-                "new Solution().uniqueMorseRepresentations((String[])\n                Arrays.asList(\"noilq\",\"kzlq\",\"ydreq\",\"ybxk\",\"kzlq\").toArray()) = "
+                "new PowerOf3().uniqueMorseRepresentations((String[])\n                Arrays.asList(\"noilq\",\"kzlq\",\"ydreq\",\"ybxk\",\"kzlq\").toArray()) = "
                         + new Solution().uniqueMorseRepresentations((String[])
                         Arrays.asList("noilq", "kzlq", "ydreq", "ybxk", "kzlq").toArray()));
     }

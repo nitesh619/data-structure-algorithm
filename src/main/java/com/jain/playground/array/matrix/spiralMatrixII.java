@@ -1,4 +1,4 @@
-package com.jain.playground.array;
+package com.jain.playground.array.matrix;
 // Given an integer n, generate a square matrix filled with elements from 1 to n2 in spiral order.
 
 // For example,
@@ -12,6 +12,7 @@ package com.jain.playground.array;
 // ]
 class spiralMatrixII {
 
+    // similar to matrix - I
     public int[][] spiralOrder(int n) {
         int[][] matrix = new int[n][n];
         int rowStart = 0;

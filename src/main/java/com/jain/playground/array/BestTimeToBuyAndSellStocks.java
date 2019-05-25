@@ -14,7 +14,6 @@ package com.jain.playground.array;
 
 // In this case, no transaction is done, i.e. max profit = 0.
 public class BestTimeToBuyAndSellStocks {
-
     //Kadane's algorithm
     public int maxProfit(int[] prices) {
         if (prices.length == 0) {
@@ -23,7 +22,7 @@ public class BestTimeToBuyAndSellStocks {
 
         int min = prices[0];
         int maxProfit = 0;
-
+        // track max profit so far, if new minima found then calculate next profits - this min
         for (int i = 1; i < prices.length; i++) {
             maxProfit = Math.max(maxProfit, prices[i] - min);
             min = Math.min(min, prices[i]);
